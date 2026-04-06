@@ -1,0 +1,17 @@
+# Thư mục chứa thư viện (Rất nặng, không đẩy lên Git)
+node_modules/
+
+# File chứa thông tin bảo mật, mật khẩu, database (Tuyệt đối không đẩy lên Git)
+.env
+.env.local
+.env.development
+.env.production
+
+# Các file log ghi lại lỗi sinh ra trong quá trình chạy
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Các file rác tự động sinh ra của hệ điều hành 
+.DS_Store
+Thumbs.db
